@@ -3,6 +3,7 @@ import {Routes, Route} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Header from "./components/header";
+import Footer from "./components/footer";
 
 
 
@@ -10,6 +11,7 @@ function App() {
   return (
     <div className="App">
      <Header/>
+     <main>
       <Routes>
         <Route path="/" element={<h1>Page d'accueil</h1>}/>
         <Route path="/services" element={<h1>Services</h1>}/>
@@ -17,6 +19,8 @@ function App() {
         <Route path="/contact" element={<h1>Contact</h1>}/>
         <Route path="/mentions-legales" element={<h1>Mentions Légales</h1>}/>
       </Routes>
+     </main>
+     <Footer/>
     </div>
   )
 }

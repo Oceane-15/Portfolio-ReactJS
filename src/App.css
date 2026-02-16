@@ -1,8 +1,46 @@
 body {
   font-family: 'Nunito Sans', sans-serif;
+  margin: 0;
   font-weight: 400;
+  color: #444;
 }
 
 h1,h2,h3 strong {
   font-weight: 600;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.nav-link {
+  color: #444;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+footer a:hover {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.footer-icon:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s;
 }
