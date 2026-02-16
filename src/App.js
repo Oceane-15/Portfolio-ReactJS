@@ -2,11 +2,14 @@ import React from "react";
 import {Routes, Route} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Header from "./components/Header";
+
 
 
 function App() {
   return (
     <div className="App">
+     <Header/>
       <Routes>
         <Route path="/" element={<h1>Page d'accueil</h1>}/>
         <Route path="/services" element={<h1>Services</h1>}/>
