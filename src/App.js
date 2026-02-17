@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Header from "./components/header";
 import Footer from "./components/footer";
+import Home from "./pages/home";
 
 
 
@@ -13,7 +14,7 @@ function App() {
      <Header/>
      <main>
       <Routes>
-        <Route path="/" element={<h1>Page d'accueil</h1>}/>
+        <Route path="/" element={<Home/>}/>
         <Route path="/services" element={<h1>Services</h1>}/>
         <Route path="/realisations" element={<h1>Réalisations</h1>}/>
         <Route path="/contact" element={<h1>Contact</h1>}/>
