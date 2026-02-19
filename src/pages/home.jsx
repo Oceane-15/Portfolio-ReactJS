@@ -1,6 +1,7 @@
 import React , {useState, useEffect} from "react";
-import heroBg from "../assets/img/hero-bg.jpg";
-import aboutImg from "../assets/img/john-doe-about.jpg";
+import '../App.css';
+import heroBg from "../assets/image/hero-bg.jpg";
+import aboutImg from "../assets/image/john-doe-about.jpg";
 
 const Home = () => {
     const [user, setUser] = useState({});

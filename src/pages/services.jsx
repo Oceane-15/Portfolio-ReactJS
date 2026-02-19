@@ -4,7 +4,7 @@ import {Brush, CodeSlash, Search} from 'react-bootstrap-icons';
 
 const Services = () => {
     return (
-        <main className="services-page">
+        <main className="page-services">
             <div className="hero-image"></div>
 
             <section className="container py-5">
