@@ -5,7 +5,8 @@ import './App.css';
 import Header from "./components/header";
 import Footer from "./components/footer";
 import Home from "./pages/home";
-import Services from './pages/services';
+import Services from "./pages/services";
+import Portfolio from "./pages/portfolio";
 
 
 
@@ -17,7 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/services" element={<Services/>}/>
-        <Route path="/realisations" element={<h1>Réalisations</h1>}/>
+        <Route path="/realisations" element={<Portfolio/>}/>
         <Route path="/contact" element={<h1>Contact</h1>}/>
         <Route path="/mentions-legales" element={<h1>Mentions Légales</h1>}/>
       </Routes>

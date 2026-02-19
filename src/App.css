@@ -53,7 +53,7 @@ footer a:hover {
 
 .hero{
   height: 100vh;
-  background-image: url('./assets/img/hero-bg.jpg');;
+  background-image: url('./assets/image/hero-bg.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -78,7 +78,7 @@ footer a:hover {
 }
 
 .hero-image{
-  background-image: url(./assets/img/banner.jpg);
+  background-image: url('./assets/image/banner.jpg');
   height: 300px;
   background-size: cover;
   background-position: center;
@@ -93,13 +93,45 @@ footer a:hover {
   
 }
 
-.services-page .card{
+.page-services .card{
   border: 1px solid rgba(0, 0, 0, 0.1) ;
   transition: all 0.3s ease;
   border-radius: 10px;
 }
 
-.services-page .card:hover{
+.page-services .card:hover{
   background-color: #efefef;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.page-portfolio .card{
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: 0.3 ease;
+  background-color: 0.3 ease;
+  box-shadow: 0.3 ease;
+}
+
+.page-portfolio .card:hover{
+  background-color: #efefef;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top{
+  height: 200px;
+  object-fit: cover;
+}
+
+.page-portfolio .card-text{
+  font-size: 0.9rem;
+}
+
+.page-portfolio .btn-primary{
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  transition: 0.3 ease;
+}
+
+.page-portfolio .btn-primary:hover{
+  background-color: #3d8bfd;
+  border-color: #3d8bfd;
 }
