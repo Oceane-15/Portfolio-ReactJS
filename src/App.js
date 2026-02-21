@@ -8,6 +8,7 @@ import Home from "./pages/home";
 import Services from "./pages/services";
 import Portfolio from "./pages/portfolio";
 import Contact from "./pages/contact";
+import MentionsLegales from "./pages/mentions-legales";
 
 
 
@@ -21,7 +22,7 @@ function App() {
         <Route path="/services" element={<Services/>}/>
         <Route path="/realisations" element={<Portfolio/>}/>
         <Route path="/contact" element={<Contact/>}/>
-        <Route path="/mentions-legales" element={<h1>Mentions Légales</h1>}/>
+        <Route path="/mentions-legales" element={<MentionsLegales/>}/>
       </Routes>
      </main>
      <Footer/>
