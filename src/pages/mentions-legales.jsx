@@ -3,7 +3,7 @@ import '../App.css';
 
 const MentionsLegales = () => {
     return(
-        <main className="container py-5">
+        <div className="container py-5">
             <div className="text-center mb-5">
                 <h1 className="fw-bold">Mentions Légales</h1>
                 <div className="separation"></div>
@@ -16,11 +16,11 @@ const MentionsLegales = () => {
                     </h2>
                     <div id="editor" className="accordion-collapse collapse show" data-bs-parent="#accordionMentions">
                         <div className="accordion-body">
-                            <h3>John Doe</h3>
+                            <h2 className="h3 fw-bold">John Doe</h2>
                             <address className="mb-0">
                                 <i className="fa-solid fa-map me-2"></i>40 rue Laure Diebold <br />
-                                <i className="fa-solid fa-map-location-dot me-2"></i>69009 Lyon, France <br />
-                                <i className="fa-solid fa-mobile-screen-button me-2"></i> <a href="tel:1020304050" className="text-decoration-none text-dark">1020304050</a> <br />
+                                <i className="fa-solid fa-location-dot me-2"></i>69009 Lyon, France <br />
+                                <i className="fa-solid fa-mobile-screen-button me-2"></i> <a href="tel:1020304050" className="text-decoration-none text-dark">10 20 30 40 50</a> <br />
                                 <i className="fa-solid fa-envelope me-2"></i> <a href="mailto:john.doe@gmail.com" className="text-decoration-none text-dark">john.doe@gmail.com</a>
                             </address>
                         </div>
@@ -58,7 +58,7 @@ const MentionsLegales = () => {
                     </div>
                 </div>
             </div>
-        </main>
+        </div>
     );
 }
 

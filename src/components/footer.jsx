@@ -7,7 +7,7 @@ const Footer = () => {
           <div className="container text-center text-md-start">
             <div className="row">
                 <div className="col-md-3 mb-4 mx-auto">
-                    <h5>John Doe</h5>
+                    <h2 className="h5">John Doe</h2>
                     <address>
                         40 Rue Laure Diebold<br/>
                         69009 Lyon, France<br/>
@@ -27,24 +27,24 @@ const Footer = () => {
               </div>
             </div>
               <div className="col-md-3 mb-4 mx-auto">
-                <h5>Liens utiles</h5>
+                <h2 className="h5">Liens utiles</h2>
                 <ul className="list-unstyled mt-2">
-                    <li><NavLink to="/" className="text-light text-decoration-none">Accueil</NavLink></li>
-                    <li><NavLink to="/services" className="text-light text-decoration-none">Services</NavLink></li>
-                    <li><NavLink to="/realisations" className="text-light text-decoration-none">Portfolio</NavLink></li>
-                    <li><NavLink to="/contact" className="text-light text-decoration-none">Me contacter</NavLink></li>
-                    <li><NavLink to="/mentions-legales" className="text-light text-decoration-none">Mentions légales</NavLink></li>
+                    <li><NavLink to="/" target="_blank" className="text-light text-decoration-none">Accueil</NavLink></li>
+                    <li><NavLink to="/services" target="_blank" className="text-light text-decoration-none">Services</NavLink></li>
+                    <li><NavLink to="/realisations" target="_blank" className="text-light text-decoration-none">Portfolio</NavLink></li>
+                    <li><NavLink to="/contact" target="_blank" className="text-light text-decoration-none">Me contacter</NavLink></li>
+                    <li><NavLink to="/mentions-legales" target="_blank" className="text-light text-decoration-none">Mentions légales</NavLink></li>
                 </ul>
               </div>
               <div className="col-md-3 mb-4 mx-auto">
-                <h5>Mes dernières réalisations</h5>
+                <h2 className="h5">Mes dernières réalisations</h2>
                 <ul className="list-unstyled mt-2">
-                  <li><NavLink to="/realisations" className="text-light text-decoration-none">Fresh Food</NavLink></li>
-                  <li><NavLink to="/realisations" className="text-light text-decoration-none">Restaurant Akira</NavLink></li>
-                  <li><NavLink to="/realisations" className="text-light text-decoration-none">Espace bien-être</NavLink></li>
-                  <li><NavLink to="/realisations" className="text-light text-decoration-none">SEO</NavLink></li>
-                  <li><NavLink to="/realisations" className="text-light text-decoration-none">Créations d'une API</NavLink></li>
-                  <li><NavLink to="/realisations" className="text-light text-decoration-none">Maquette d'un site</NavLink></li>
+                  <li><NavLink to="/realisations" target="_blank" className="text-light text-decoration-none">Fresh Food</NavLink></li>
+                  <li><NavLink to="/realisations" target="_blank" className="text-light text-decoration-none">Restaurant Akira</NavLink></li>
+                  <li><NavLink to="/realisations" target="_blank" className="text-light text-decoration-none">Espace bien-être</NavLink></li>
+                  <li><NavLink to="/realisations" target="_blank" className="text-light text-decoration-none">SEO</NavLink></li>
+                  <li><NavLink to="/realisations" target="_blank" className="text-light text-decoration-none">Créations d'une API</NavLink></li>
+                  <li><NavLink to="/realisations" target="_blank" className="text-light text-decoration-none">Maquette d'un site</NavLink></li>
                 </ul>
               </div>
               </div>
