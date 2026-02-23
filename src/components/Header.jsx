@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <header>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-3">
-            <div className="container">
+            <div className="container-fluid">
             <NavLink className="navbar-brand fw-bold text-uppercase">
             John Doe 
             </NavLink>
