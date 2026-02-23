@@ -19,7 +19,7 @@ const Portfolio = () => {
     ];
 
     return (
-        <main className="page-portfolio">
+        <div className="page-portfolio">
             <div className="hero-image"></div>
 
             <section className="container py-5">
@@ -35,7 +35,7 @@ const Portfolio = () => {
                             <div className="card h-100 shadow-sm">
                                 <img src={project.img} className="card-img-top" alt={project.alt}/>
                                 <div className="card-body text-center">
-                                    <h3 className="h5 card-title fw-bold">{project.title}</h3>
+                                    <h2 className="h5 card-title fw-bold">{project.title}</h2>
                                     <p className="card-text">{project.desc}</p>
                                     <button className="btn btn-primary mt-auto">Voir le site</button>
                                 </div>
@@ -47,7 +47,7 @@ const Portfolio = () => {
                     ))}
                 </div>
             </section>
-        </main>
+        </div>
     );
 }
 

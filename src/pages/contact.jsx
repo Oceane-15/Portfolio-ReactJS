@@ -3,7 +3,7 @@ import '../App.css';
 
 const Contact = () => {
     return (
-        <main className="page-contact">
+        <div className="page-contact">
             <section className="container py-5">
                 <div className="text-center mb-5">
                     <h1 className="fw-bold">Contact</h1>
@@ -13,7 +13,7 @@ const Contact = () => {
 
                 <div className="row bg-white shadow p-4 rounded">
                     <div className="col-12 col-md-6 mb-4">
-                        <h3 className="fw-bold border-bottom border-primary border-4 pb-2 mb-4">Formulaire de contact</h3>
+                        <h2 className="h3 fw-bold border-bottom border-primary border-4 pb-2 mb-4">Formulaire de contact</h2>
                         <form>
                             <div className="mb-3">
                                 <input type="text" className="form-control" placeholder="Votre nom" required/>
@@ -56,7 +56,7 @@ const Contact = () => {
                     </div>
                 </div>
             </section>
-        </main>
+        </div>
     );
 }
 
