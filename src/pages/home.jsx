@@ -42,7 +42,7 @@ const Home = () => {
                             </div>
                             <div className="col-md-7">
                                 <ul className="list-unstyled">
-                                    <li className="border-bottom py-2"><i className="bi bi-person"></i><a href={user.html_url} target="_blank" rel="noreferrer" className="text-primary text-decoration-none fw-bold ms-2 border-bottom border-primary"> {user.name}</a></li>
+                                    <li className="border-bottom py-2"><i className="bi bi-person"></i><a href={user.html_url} target="_blank" rel="noreferrer" className="text-primary text-decoration-none ms-2 border-bottom border-primary"> {user.name}</a></li>
                                     <li className="border-bottom py-2"><i className="bi bi-geo-alt"></i>{user.location}</li>
                                     <li className="border-bottom py-2 small"><i className="bi bi-card-text"></i> {user.bio}</li>
                                     <li className="border-bottom py-2"><i className="bi bi-box"></i> Repositories : {user.public_repos}</li>
@@ -63,14 +63,14 @@ const Home = () => {
         <section className="container py-5 my-5 shadow-lg bg-white rounded">
             <div className="row p-4">
             <div className="col-12 col-md-6 mb-5 mb-md-0">
-                <h3 className="border-bottom border-primary border-3 pb-2 mb-4">A propos</h3>
+                <h3 className="fw-bold border-bottom border-primary border-3 pb-2 mb-4">A propos</h3>
                 <img src={aboutImg} alt="John Doe" className="img-fluid rounded mb-3"/>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum repudiandae ea praesentium cupiditate quia. Magni fuga inventore laudantium perferendis praesentium alias quasi nisi delectus sapiente nam, facilis vitae, maiores eligendi?</p>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat quae aut officiis, reiciendis culpa dolorem, ipsum voluptates delectus iste autem distinctio quia explicabo, incidunt expedita aperiam rem numquam debitis. Officia!</p>
             </div>
 
             <div className="col-12 col-md-6">
-                <h3 className="border-bottom border-primary border-3 pb-2 mb-4">Mes compétences</h3>
+                <h3 className="fw-bold border-bottom border-primary border-3 pb-2 mb-4">Mes compétences</h3>
                 <div className="mb-3">
                     <span>HTML5 90%</span>
                     <div className="progress rounded-0 mt-2" style={{height:'8px'}}>
